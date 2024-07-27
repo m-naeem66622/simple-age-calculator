@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #BB86FC;
+}
+
+.input-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #e0e0e0;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #BB86FC;
+  color: #121212;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.result-box {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.result-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #BB86FC;
+}
+
+.result-label {
+  font-size: 16px;
+  color: #e0e0e0;
+}
